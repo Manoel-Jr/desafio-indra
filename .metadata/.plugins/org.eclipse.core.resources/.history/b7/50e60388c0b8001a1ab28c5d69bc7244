@@ -1,0 +1,5 @@
+package br.com.challenge.api.storagefile;
+
+public class StorageFileService {
+
+}

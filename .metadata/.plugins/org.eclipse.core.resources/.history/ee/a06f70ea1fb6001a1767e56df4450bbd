@@ -1,0 +1,6 @@
+package br.com.challenge.api.service;
+
+public interface UsuarioService {
+
+	
+}

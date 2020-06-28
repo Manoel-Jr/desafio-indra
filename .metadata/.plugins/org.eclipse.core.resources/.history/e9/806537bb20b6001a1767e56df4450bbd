@@ -1,0 +1,40 @@
+package br.com.challenge.api.service.impl;
+
+import java.util.List;
+
+import br.com.challenge.api.model.Usuario;
+import br.com.challenge.api.service.UsuarioService;
+
+public class UsuarioServiceImpl implements UsuarioService {
+
+	@Override
+	public List<Usuario> listaTodosUsuarios() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Usuario buscarPorId(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deletar(Long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Usuario salvar(Usuario usuario) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Usuario atualizar(Long id, Usuario usuario) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

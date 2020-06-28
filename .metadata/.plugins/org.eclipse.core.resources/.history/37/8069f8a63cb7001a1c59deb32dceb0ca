@@ -1,0 +1,5 @@
+package br.com.challenge.api.service.impl;
+
+public class HistoricoServiceImpl {
+
+}

@@ -1,0 +1,45 @@
+package br.com.challenge.api.service.impl;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+
+import br.com.challenge.api.model.Usuario;
+import br.com.challenge.api.repository.UsuarioRepository;
+import br.com.challenge.api.service.UsuarioService;
+
+@Service
+public class UsuarioServiceImpl implements UsuarioService {
+
+	private UsuarioRepository repository;
+	
+	@Override
+	public List<Usuario> listaTodosUsuarios() {
+		return repository.findAll();
+	}
+
+	@Override
+	public Optional<Usuario> buscarPorId(Long id) {
+		return repository.findById(id.longValue());
+	}
+
+	@Override
+	public void deletar(Long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Usuario salvar(Usuario usuario) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Usuario atualizar(Long id, Usuario usuario) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

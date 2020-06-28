@@ -1,0 +1,22 @@
+package br.com.challenge.api.storagefile;
+
+import java.io.IOException;
+
+import org.springframework.web.multipart.MultipartFile;
+
+public class StorageFileService {
+
+	private String path;
+	private String name;
+	private String type;
+	private Long size;
+	
+	
+	
+	public void uploadServiceCsv(MultipartFile file) throws IOException{
+		path = "";
+		name = file.getOriginalFilename();
+		type = file.getContentType();
+	}
+	
+}

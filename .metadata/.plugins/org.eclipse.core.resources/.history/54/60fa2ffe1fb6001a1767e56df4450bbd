@@ -1,0 +1,14 @@
+package br.com.challenge.api.service;
+
+import java.util.List;
+
+import br.com.challenge.api.model.Usuario;
+
+public interface UsuarioService {
+ 
+	public List<Usuario> listaTodosUsuarios();
+	public Usuario buscarPorId(Long id);
+	public void deletar(Long id);
+	public Usuario salvar(Usuario usuario);
+	public Usuario atualizar(Long id, Usuario usuario);
+}

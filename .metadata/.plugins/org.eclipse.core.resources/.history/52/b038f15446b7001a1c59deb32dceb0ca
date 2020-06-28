@@ -1,0 +1,38 @@
+package br.com.challenge.api.service.impl;
+
+import br.com.challenge.api.model.Historico;
+import br.com.challenge.api.service.HistoricoService;
+
+public class HistoricoServiceImpl implements HistoricoService{
+
+	@Override
+	public Historico buscarTodoHistorico() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Historico buscarPorId(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deletarPorId(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Historico salvarHistorico(Historico historico) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Historico atualizarHistorico(Long id, Historico historico) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

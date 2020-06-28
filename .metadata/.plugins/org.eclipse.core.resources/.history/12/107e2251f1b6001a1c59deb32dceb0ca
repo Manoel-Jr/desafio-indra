@@ -1,0 +1,13 @@
+package br.com.challenge.api.service;
+
+import br.com.challenge.api.model.Historico;
+
+public interface HistoricoService {
+
+	Historico buscarTodoHistorico();
+	Historico buscarPorId(Long id);
+	void deletarHistorico(Long id);
+	void deletarPorId(Long id);
+	Historico salvarHistorico(Historico historico);
+	Historico atualizarHistorico(Long id, Historico historico);
+}
